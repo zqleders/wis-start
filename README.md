@@ -1,5 +1,7 @@
 # Wispbyte 多账号自动重启工具
 
+感谢源代码作者：https://github.com/oyz8/Wispbyte
+
 > 基于 **GitHub Actions + SeleniumBase** 的全自动服务器重启方案，支持自动登录、广告观看、Cloudflare Turnstile 验证，通过 **Telegram** 发送实时截图通知。
 
 ⚠️ **旧版 Cloudflare Workers 方案已失效**（Workers 平台无法处理 Turnstile 验证与浏览器指纹检测），本文档合并保留其 API 调用说明，**主体内容为 GitHub Actions 新方案**。  
